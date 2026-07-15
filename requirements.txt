@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2
+gnews>=0.3
+transformers>=4.30
+torch>=2.0
+pyarrow>=14.0
