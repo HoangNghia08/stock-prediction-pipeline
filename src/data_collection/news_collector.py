@@ -49,11 +49,6 @@ def generate_date_chunks(
 
     return chunks
 
-
-def _build_site_clause(sources: List[str]) -> str:
-    return "(" + " OR ".join(f"site:{s}" for s in sources) + ")"
-
-
 def clean_html_text(raw_text: str) -> str:
     if not raw_text:
         return ""
